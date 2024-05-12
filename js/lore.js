@@ -8,7 +8,7 @@ const lore = {
     isSpeech: false,
     testSpeechAPI() {
         if ('speechSynthesis' in window) { // Synthesis support. Make your web apps talk!
-            lore.isSpeech = true
+            lore.isSpeech = false
             // const utterance = new SpeechSynthesisUtterance("test");
             // utterance.volume = 0; // 0 to 1
             // speechSynthesis.speak(utterance);
